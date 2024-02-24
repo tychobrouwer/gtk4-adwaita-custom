@@ -9,7 +9,7 @@ SASSC_OPT="-M -t compact"
 
 echo Generating the css...
 
-sassc $SASSC_OPT Default-dark.scss Default-dark.css
-sassc $SASSC_OPT Default-hc-dark.scss Default-hc-dark.css
-sassc $SASSC_OPT Default-hc.scss Default-hc.css
-sassc $SASSC_OPT Default-light.scss Default-light.css
+sassc $SASSC_OPT Default-dark.scss gtk-contained-dark.css
+sassc $SASSC_OPT Default-hc-dark.scss gtk-contained-dark.css
+sassc $SASSC_OPT Default-hc.scss gtk-contained-hc.css
+sassc $SASSC_OPT Default-light.scss gtk-contained-light.css
